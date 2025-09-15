@@ -1,0 +1,62 @@
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500  1) Linus Torvalds
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500  2) --------------------------
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500  3) Linus Benedict Torvalds (Helsinki, Finlandia, 28 de diciembre de 19691​) es un ingeniero de software finlandés-estadounidense,2​ conocido por iniciar y mantener el desarrollo del kernel (en español, núcleo) Linux, basándose en el sistema operativo libre Minix creado por Andrew S. Tanenbaum y en algunas herramientas, varias utilidades y los compiladores desarrollados por el proyecto GNU. Actualmente es responsable de la coordinación del proyecto.
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500  4) 
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500  5) Biografía
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500  6) --------------------------
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500  7) Torvalds pertenece a la comunidad sueco-parlante de Finlandia. Sus padres tomaron su nombre de
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500  8) Linus Pauling (estadounidense, Premio Nobel de Química 1954). Comenzó sus andanzas informáticas a
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500  9) los 11 años cuando su abuelo, un matemático y estadístico de la Universidad, compró uno de los
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 10) primeros microordenadores Commodore en 1980 y le pidió ayuda para usarlo;3 de esta manera su
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 11) primera línea de código fue hecha en lenguaje BASIC.4
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 12) 
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 13) Creación de Linux
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 14) --------------------------
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 15) En Finlandia, Linus Torvalds, por entonces estudiante de Ciencias de la Computación de la
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 16) Universidad de Helsinki, decidió realizar la entonces cuantiosa inversión de 3500 dólares
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 17) estadounidenses para adquirir un nuevo ordenador con el microprocesador 80386 de Intel, el cual
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 18) funcionaba a 33 MHz y tenía 4 MB de memoria RAM. El pago lo realizaría a plazos, pues no
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 19) disponía de tal cantidad de dinero en efectivo.
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 20) Normalmente, este ordenador lo usaba para tener acceso por línea telefónica a la red informática
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 21) de su Universidad, pero debido a que no le gustaba el sistema operativo con el cual trabajaba,
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 22) denominado Minix, decidió crear uno él mismo. Inicialmente, escribió un programa con lenguaje
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 23) de bajo nivel prescindiendo de Minix. En los primeros intentos, consiguió arrancar el ordenador y
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 24) ejecutar dos procesos que mostraban la cadena de caracteres “AAAAABBBBB”. Uno lo utilizaría
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 25) para leer desde el módem y escribir en la pantalla, mientras que el otro escribiría al módem y
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 26) leería desde el teclado. Inicialmente, el programa arrancaba desde un disquete.
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 27) La siguiente necesidad que tuvo fue la de poder descargar y subir archivos de su universidad, pero
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 28) para implementar esta funcionalidad en el software emulador era necesario crear un controlador
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 29) de disco. Así que después de un trabajo continuo y duro, creó un controlador compatible con el
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 30) sistema de archivos de Minix. En ese momento, se percató de que estaba creando algo más que un
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 31) simple emulador de terminal, así que, emprendió la tarea de crear un sistema operativo partiendo
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 32) de cero.
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 33) De forma privada, Linus nombraba Linux a su nuevo sistema, pero cuando decidió hacer una
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 34) presentación pública pensó que era demasiado egocéntrico llamarlo así y propuso llamarlo Freax,
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 35) aunque después se le siguió conociendo como Linux, práctica que perdura hasta ahora.
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 36) 
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 37) 
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 38) Autoría y marca registrada
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 39) ---------------------------
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 40) A partir de 2006, se estima que aproximadamente el dos por ciento del kernel de Linux fue escrito por el propio Torvalds. 7​ Debido a que miles de personas han contribuido al kernel de Linux, este porcentaje es una de las mayores contribuciones al mismo. Sin embargo, declaró en 2012 que su propia contribución personal ahora es principalmente un código de fusión escrito por otros, con poca programación. 8​ Torvalds conserva la máxima autoridad para decidir qué nuevo código se incorpora al núcleo estándar de Linux. 9​
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 41) 
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 42) Reconocimiento
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 43) -------------------------------------------------------------------------------------
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 44) En 1996, un asteroide recibió el nombre de 9793 Torvalds en honor a Linus Torvalds.
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 45) En 1998 recibió el premio Pioneer Award de la EFF.10​
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 46) En 1999 recibió el título de doctor honorífico en la Universidad de Estocolmo.
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 47) En 2000 recibió el título de doctor honorífico en la Universidad de Helsinki.
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 48) En la votación «Persona del Siglo» de la revista Time, Linus Torvalds obtuvo la posición número 17.11​
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 49) En 2001, compartió el premio Takeda Award para las artes sociales y económicas junto a Richard Stallman y Ken Sakamura.
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 50) La película del 2001, Swordfish, contiene un personaje finlandés (el hacker número uno del mundo) llamado Axl Torvalds.
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 51) En 2004, fue nombrado como una de las personas más influyentes del mundo en el artículo de la revista Time.12​
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 52) En el verano de 2004, obtuvo el puesto número 16 en Suuret Suomalaiset.13​
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 53) En 2005, fue nombrado como uno de "los mejores administradores empresariales" en una encuesta de la revista BusinessWeek.14​
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 54) En agosto de 2005, Linus Torvalds recibió el premio Vollum Award del Reed College.15​
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 55) En 2006, la revista Business 2.0 lo nombró como «una de las diez personas que no tienen importancia» debido a que el crecimiento e importancia de Linux habían eclipsado el impacto individual de Linus.16​
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 56) En 2006, la revista Time lo nombra como uno de los héroes revolucionarios de los últimos 60 años.17​
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 57) En 2008, fue incluido como miembro en el Museo de Historia de la Computación en Mountain View, California, "por la creación del kernel de Linux y la gestión del desarrollo de código abierto del sistema operativo Linux ampliamente utilizado".18​
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 58) En 2010 recibió el Premio C&C de la Corporación NEC por "contribuciones al avance de la industria de la tecnología de la información, la educación, la investigación y la mejora de nuestras vidas". 19​
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 59) En 2012, la Academia de Tecnología de Finlandia le otorga el premio 2012 Millennium Technology Prize (que comparte con el Dr Yamanaka) "en reconocimiento a su creación de un nuevo sistema operativo de código abierto para ordenadores que llevan como núcleo Linux".
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 60) En 2012, en la conferencia de Internet Society Global INET en Ginebra, Suiza, Torvalds ingresa al Salón de la Fama de Internet, uno de los diez en la categoría Innovadores.21​
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 61) En 2014, el Institute of Electrical and Electronics Engineers le otorga el IEEE Computer Society's Computer Pioneer Award.22​
+0b2a4ce8 (Junior David Pacheco llanos 2025-09-15 16:48:01 -0500 62) En 2018, el Institute of Electrical and Electronics Engineers le otorga el IEEE Masaru Ibuka Consumer Electronics Award.23​
